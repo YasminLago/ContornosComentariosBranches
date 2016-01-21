@@ -11,7 +11,7 @@ public class Contacto {
         this.nome = aux_nome;
         this.apelidos = aux_apelidos;
         this.telefono = aux_telefono;
-        this.email = aux_email;
+        this.email = aux_email;   
     }
 
     public String getNome() {
@@ -52,6 +52,12 @@ public class Contacto {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        String texto;
+        return texto=("Contacto: \n" + "Nome: "+"\n"+ getNome()+"\n"+ "Apelidos: " + getApelidos()+"\n"+"Telefono: " + getTelefono() +"\n"+"Email: " + getEmail() +"\n"+"Id: "+getId()+'}');
     }
     
 }
