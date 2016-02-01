@@ -1,8 +1,7 @@
 package miapp;
 //Yasmin
 public class Contacto {
-     private String nome, apelidos, telefono, email;
-     int id;
+       private String nome, apelidos, telefono, email;
      public Contacto() {
         nome=apelidos=telefono=email="";
     }
@@ -46,18 +45,10 @@ public class Contacto {
         this.email = email;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
     @Override
     public String toString() {
         String texto;
-        return texto=("Contacto: \n" + "Nome: "+"\n"+ getNome()+"\n"+ "Apelidos: " + getApelidos()+"\n"+"Telefono: " + getTelefono() +"\n"+"Email: " + getEmail() +"\n"+"Id: "+getId()+'}');
+        return texto=("Contacto: \n" + "Nome: "+"\n"+ getNome()+"\n"+ "Apelidos: " + getApelidos()+"\n"+"Telefono: " + getTelefono() +"\n"+"Email: " + getEmail() +"\n"+'}');
     }
     
 }
