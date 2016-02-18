@@ -1,14 +1,26 @@
 package miapp;
 /**
- * 
+ * Rexistro de contactos da libreta
  * @author ylagorebollar
+* @version 2.0
  */
 public class Contacto {
      private String nome, apelidos, telefono, email;
-     public Contacto() {
+
+    /**
+     *
+     */
+    public Contacto() {
         nome=apelidos=telefono=email="";
     }
 
+    /**
+     *
+     * @param aux_nome
+     * @param aux_apelidos
+     * @param aux_telefono
+     * @param aux_email
+     */
     public Contacto(String aux_nome, String aux_apelidos, String aux_telefono, String aux_email) {
         this.nome = aux_nome;
         this.apelidos = aux_apelidos;
@@ -35,7 +47,7 @@ public class Contacto {
     public String getTelefono() {
         return telefono;
     }
-
+    
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
@@ -46,6 +58,9 @@ public class Contacto {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+    public void metodoExp(){
+        
     }
 
     @Override
