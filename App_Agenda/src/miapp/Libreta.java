@@ -1,7 +1,10 @@
 package miapp;
 //Yasmin
+
 public class Libreta {
+
      private String nome, dni;
+ 
     private int libre = cualLibre();
     Contacto[] arrayContactos = new Contacto[3];
 

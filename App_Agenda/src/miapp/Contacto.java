@@ -1,7 +1,10 @@
 package miapp;
-//Yasmin
+/**
+ * 
+ * @author ylagorebollar
+ */
 public class Contacto {
-       private String nome, apelidos, telefono, email;
+     private String nome, apelidos, telefono, email;
      public Contacto() {
         nome=apelidos=telefono=email="";
     }
@@ -52,3 +55,4 @@ public class Contacto {
     }
     
 }
+
